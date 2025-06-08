@@ -7,7 +7,9 @@ ImgStore is a modern, visually engaging web application that showcases a collect
 - **Live Website:** [Add your live link here](https://your-live-link.com)
 - **Preview Video:**
   
-  <video autoplay mute loop src="./assets/preview/ImgStore.mp4"></video>
+  <video autoplay mute loop width="640" height="360">
+   <source src="./assets/preview/ImgStore.mp4" type="video/mp4">
+  </video>
 
 ## Features
 - Animated transitions between featured images and descriptions
