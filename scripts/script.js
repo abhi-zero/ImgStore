@@ -1,4 +1,4 @@
-const tl = gsap.timeline({repeat: -1});
+const tl = gsap.timeline({ repeat: -1 });
 
 tl.to(
   ".heading.one",
@@ -27,10 +27,14 @@ tl.to(
     },
     "one"
   )
-  .to(".indicator.one",{
-    duration:1.5,
-    backgroundColor: "black",
-  },"one")
+  .to(
+    ".indicator.one",
+    {
+      duration: 1.5,
+      backgroundColor: "black",
+    },
+    "one"
+  )
   .to(
     ".heading.one",
     {
@@ -61,21 +65,25 @@ tl.to(
     },
     "endone"
   )
-   .to(".indicator.one",{
-    delay:3,
-    duration:1.5,    
-    backgroundColor: "grey",
-  },"endone")
+  .to(
+    ".indicator.one",
+    {
+      delay: 3,
+      duration: 1.5,
+      backgroundColor: "grey",
+    },
+    "endone"
+  )
 
   .to(
-  ".heading.second",
-  {
-    opacity: 1,
-    duration: 1.5,
-    x: 0,
-  },
-  "second"
-)
+    ".heading.second",
+    {
+      opacity: 1,
+      duration: 1.5,
+      x: 0,
+    },
+    "second"
+  )
   .to(
     ".description.second",
     {
@@ -94,10 +102,14 @@ tl.to(
     },
     "second"
   )
-  .to(".indicator.second",{
-    duration:1.5,
-    backgroundColor: "black",
-  },"second")
+  .to(
+    ".indicator.second",
+    {
+      duration: 1.5,
+      backgroundColor: "black",
+    },
+    "second"
+  )
   .to(
     ".heading.second",
     {
@@ -128,21 +140,25 @@ tl.to(
     },
     "endsecond"
   )
-   .to(".indicator.second",{
-        delay:3,
-    duration:1.5,
-    backgroundColor: "grey",
-  },"endsecond")
+  .to(
+    ".indicator.second",
+    {
+      delay: 3,
+      duration: 1.5,
+      backgroundColor: "grey",
+    },
+    "endsecond"
+  )
 
   .to(
-  ".heading.third",
-  {
-    opacity: 1,
-    duration: 1.5,
-    x: 0,
-  },
-  "third"
-)
+    ".heading.third",
+    {
+      opacity: 1,
+      duration: 1.5,
+      x: 0,
+    },
+    "third"
+  )
   .to(
     ".description.third",
     {
@@ -161,10 +177,14 @@ tl.to(
     },
     "third"
   )
-    .to(".indicator.third",{
-    duration:1.5,
-    backgroundColor: "black",
-  },"third")
+  .to(
+    ".indicator.third",
+    {
+      duration: 1.5,
+      backgroundColor: "black",
+    },
+    "third"
+  )
   .to(
     ".heading.third",
     {
@@ -195,16 +215,19 @@ tl.to(
     },
     "endthird"
   )
+  .to(
+    ".indicator.third",
+    {
+      delay: 3,
+      duration: 1.5,
+      backgroundColor: "grey",
+    },
+    "endthird"
+  );
 
-   .to(".indicator.third",{
-        delay:3,
-    duration:1.5,
-    backgroundColor: "grey",
-  },"endthird")
-
-  gsap.to(".more-learn-section i",{
-    x:10,
-    duration:.6,
-    repeat: -1,
-    yoyo: true
-  })
+gsap.to(".more-learn-section i", {
+  x: 10,
+  duration: 0.6,
+  repeat: -1,
+  yoyo: true,
+});
