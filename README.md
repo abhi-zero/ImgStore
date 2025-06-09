@@ -4,7 +4,7 @@
 ImgStore is a modern, visually engaging web application that showcases a collection of nature-themed images with smooth, animated transitions. Built with HTML, CSS, and JavaScript, it leverages GSAP for animations and Remix Icon for stylish icons, providing an interactive and aesthetic user experience.
 
 ## Live Demo & Preview
-- **Live Website:** [Add your live link here](https://your-live-link.com)
+- **Live Website:** [live link](https://abhi-zero.github.io/ImgStore/)
 - **Preview Video:**
   
     ![Preview](./assets/preview/screencapture-127-0-0-1-5500-index-html-2025-06-08-12_43_49.png)
@@ -64,7 +64,7 @@ Both dependencies are included via CDN in `index.html`:
 
 ---
 ## License
-This project is open source and available under the [MIT License](LICENSE) (add a LICENSE file if needed).
+This project is open source 
 
 ---
 
